@@ -9,6 +9,7 @@
 * Brief Description of what this module does: Learn how to use and create webforms in ASP.Net
 * Citations: https://blog.seekdotnet.com/asp-net/how-to-add-images-into-asp-net-webpage-2/
  https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.webcontrols.hyperlink?view=netframework-4.8.1#examples
+ https://stackoverflow.com/questions/14034960/how-to-make-linkbutton-function-as-hyperlink
 * Anything else that's relevant: 
  -->
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="All About My Dog, Chloe.aspx.cs" Inherits="nallarpi_Assignment10.All_About_My_Dog__Chloe" %>
@@ -44,9 +45,9 @@
             <br />
             <asp:Label ID="lblBorderCollie" runat="server" Text="Border Collie" style="font-weight: 700"></asp:Label>
             <br />
-            <asp:HyperLink ID="hyperlinkBorderCollie" 
-                NavigateUrl="https://www.akc.org/dog-breeds/border-collie/"                
-                runat="server">More about Border Collies</asp:HyperLink>
+
+            <asp:Button ID="cmdBorderCollie" runat="server" Text="More about Border Collies" PostBackUrl="https://www.akc.org/dog-breeds/border-collie/" />
+
             <br />
             <asp:Table ID="tblBorderCollie" runat="server" BorderColor="Black" BorderStyle="Solid">
                 <asp:TableRow>
@@ -71,9 +72,7 @@
             <br />
             <asp:Label ID="lblLabRet" runat="server" Text="Labrador Retriever" style="font-weight: 700"></asp:Label>
             <br />
-            <asp:HyperLink ID="hyperLabRet" 
-                NavigateUrl="https://www.akc.org/dog-breeds/labrador-retriever/"                
-                runat="server">More about Labrador Retrievers</asp:HyperLink>
+            <asp:Button ID="cmdLabRet" runat="server" Text="More about Labrador Retrievers" PostBackUrl="https://www.akc.org/dog-breeds/labrador-retriever/" />
             <br />
             <asp:Table ID="tblLabRet" runat="server" BorderColor="Black" BorderStyle="Solid">
                 <asp:TableRow>

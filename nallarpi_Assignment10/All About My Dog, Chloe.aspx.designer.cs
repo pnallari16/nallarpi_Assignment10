@@ -87,13 +87,13 @@ namespace nallarpi_Assignment10
         protected global::System.Web.UI.WebControls.Label lblBorderCollie;
 
         /// <summary>
-        /// hyperlinkBorderCollie control.
+        /// cmdBorderCollie control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hyperlinkBorderCollie;
+        protected global::System.Web.UI.WebControls.Button cmdBorderCollie;
 
         /// <summary>
         /// tblBorderCollie control.
@@ -150,13 +150,13 @@ namespace nallarpi_Assignment10
         protected global::System.Web.UI.WebControls.Label lblLabRet;
 
         /// <summary>
-        /// hyperLabRet control.
+        /// cmdLabRet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hyperLabRet;
+        protected global::System.Web.UI.WebControls.Button cmdLabRet;
 
         /// <summary>
         /// tblLabRet control.
